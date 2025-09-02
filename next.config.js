@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // 构建时忽略 ESLint 错误
-  },
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  // 删除 assetPrefix
-  trailingSlash: true, // 添加这个，确保URL以斜杠结尾
-};
+const isProd = process.env.NODE_ENV === 'production'
+const repo = 'demo' // e.g. 'my-next-app'
 
-module.exports = nextConfig;
+module.exports = {
+  output: 'export',                  // 生成静态站点到 out/
+  images: { unoptimized: true },     // GitHub Pages 不支持 Next Image 优化
+  basePath: isProd ? `/${repo}` : '',   // 非自定义域名时必填
+  assetPrefix: isProd ? `/${repo}/` : '',
+}
