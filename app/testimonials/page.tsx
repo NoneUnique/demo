@@ -7,19 +7,19 @@ const testimonials = [
     text: "The seamless integration of form and function has fundamentally transformed our workflow. Every interaction demonstrates meticulous attention to detail.",
     author: "Alex Thompson",
     role: "Product Lead, TechNova",
-    image: "/images/1.png"
+    image: "/demo/images/1.png"
   },
   {
     text: "From initial concept to final execution, the collaborative process exceeded all expectations. The results have set a new benchmark in our industry.",
     author: "Sarah Chen",
     role: "Creative Director, Studio Alpha",
-    image: "/images/1.png"
+    image: "/demo/images/1.png"
   },
   {
     text: "A masterclass in user-centered design thinking. The solutions implemented have driven measurable improvements across all key performance metrics.",
     author: "Michael Zhou",
     role: "CTO, FutureLabs",
-    image: "/images/1.png"
+    image: "/demo/images/1.png"
   }
 ];
 

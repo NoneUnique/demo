@@ -157,7 +157,7 @@ const technology = {
                 <SwiperSlide key={index}>
                   <div className="w-full aspect-[4/3] relative">
                     <Image
-                      src="/images/1.png"
+                      src="/demo/images/1.png"
                       alt={tech.title}
                       fill
                       className="object-cover rounded-lg max-h-[600px]"

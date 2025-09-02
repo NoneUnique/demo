@@ -32,7 +32,7 @@ export default function OurStory() {
             {/* Image Section */}
             <div className="md:w-1/2">
               <Image
-                src="/images/part1.webp"
+                src="/demo/images/part1.webp"
                 alt="Founder"
                 width={600}
                 height={800}

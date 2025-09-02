@@ -12,16 +12,16 @@ interface PartnersSectionProps {
   partners?: Partner[];
 }
 const list = [
-  { href: "https://en.alrunsd.com/","name": "alrunsd", "path": "/partner/alrunsd.png" },
-  { href: "http://www.liljl-home.com/","name": "liljl", "path": "/partner/liljl.png" },
-  { href: "https://www.newpearl-global.com/","name": "newpearl", "path": "/partner/newpearl.png" },
-  { href: "https://pyure.com/","name": "pyure", "path": "/partner/pyure.png" },
-  { href: "www.tantaoenergy.com","name": "tantaoenergy", "path": "/partner/tantaoenergy.png" },
-  { href: "https://www.uponor.com/en-us","name": "uponor", "path": "/partner/uponor.png" },
-  { href: "https://zehnderamerica.com/","name": "zehnder", "path": "/partner/zehnder.jpg" },
-  { href: "https://www.tece.com/en","name": "tece", "path": "/partner/tece.svg" },
-  { href: "https://vaagentimbers.com/","name": "vaagen", "path": "/partner/vaagen.svg" },
-  { href: "https://www.schluter.com/schluter-us/en_US/","name": "schluter", "path": "/partner/schluter.svg" },
+  { href: "https://en.alrunsd.com/","name": "alrunsd", "path": "/demo/partner/alrunsd.png" },
+  { href: "http://www.liljl-home.com/","name": "liljl", "path": "/demo/partner/liljl.png" },
+  { href: "https://www.newpearl-global.com/","name": "newpearl", "path": "/demo/partner/newpearl.png" },
+  { href: "https://pyure.com/","name": "pyure", "path": "/demo/partner/pyure.png" },
+  { href: "www.tantaoenergy.com","name": "tantaoenergy", "path": "/demo/partner/tantaoenergy.png" },
+  { href: "https://www.uponor.com/en-us","name": "uponor", "path": "/demo/partner/uponor.png" },
+  { href: "https://zehnderamerica.com/","name": "zehnder", "path": "/demo/partner/zehnder.jpg" },
+  { href: "https://www.tece.com/en","name": "tece", "path": "/demo/partner/tece.svg" },
+  { href: "https://vaagentimbers.com/","name": "vaagen", "path": "/demo/partner/vaagen.svg" },
+  { href: "https://www.schluter.com/schluter-us/en_US/","name": "schluter", "path": "/demo/partner/schluter.svg" },
 
 ]
 export const Partner = ({ partners=list }: PartnersSectionProps) => {

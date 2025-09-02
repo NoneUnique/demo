@@ -141,7 +141,7 @@ const WarrantyPage = () => {
         <HowItWorks
           title="Warranty Service Process"
           features={processSteps}
-          imageUrl={"/images/2.png"} dark         ></HowItWorks>
+          imageUrl={"/demo/images/2.png"} dark         ></HowItWorks>
         {/* Frequently Asked Questions */}
         <section className="mb-20">
           <div className="text-center mb-12">

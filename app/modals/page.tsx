@@ -10,7 +10,7 @@ const products = [
     badge: "CUSTOM",
     type: "CUSTOM HOME",
     title: "VCH01",
-    image: "/images/2.png",
+    image: "/demo/images/2.png",
     specs: [
       { label: "Area", value: "240㎡" },
       { label: "Bedrooms", value: "4" },
@@ -23,7 +23,7 @@ const products = [
     badge: "TINY",
     type: "TINY HOUSE",
     title: "VTH64",
-    image: "/images/2.png",
+    image: "/demo/images/2.png",
     specs: [
       { label: "Area", value: "64㎡" },
       { label: "Bedrooms", value: "2" },
