@@ -25,7 +25,7 @@ export default function StepList() {
           <div className="lg:w-1/2 relative group">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/demo/construction.jpg"
+                src="/construction.jpg"
                 alt="建筑流程示意图"
                 className="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-105"
               />

@@ -108,7 +108,7 @@ const HowItWorks = ({
           dark ? 'ring-gray-600/20' : 'ring-gray-400/20'
         } ring-1`}>
           <Image
-            src={"/demo"+imageUrl}
+            src={imageUrl}
             alt="Workflow demonstration"
             fill
             className="w-full h-auto object-cover rounded-xl"

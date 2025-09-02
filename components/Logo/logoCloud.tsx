@@ -7,61 +7,61 @@ const logos = [
     height: 2,
     href: "https://en.alrunsd.com/",
     name: "alrunsd",
-    path: "/demo/partner/alrunsd.png",
+    path: "/partner/alrunsd.png",
   },
   {
     height: 1,
     href: "http://www.liljl-home.com/",
     name: "liljl",
-    path: "/demo/partner/liljl.png",
+    path: "/partner/liljl.png",
   },
   {
     height: 1.5,
     href: "https://www.newpearl-global.com/",
     name: "newpearl",
-    path: "/demo/partner/newpearl.png",
+    path: "/partner/newpearl.png",
   },
   {
     height: 1,
     href: "https://pyure.com/",
     name: "pyure",
-    path: "/demo/partner/pyure.png",
+    path: "/partner/pyure.png",
   },
   {
     height: 1.5,
     href: "https://www.tantaoenergy.com",
     name: "tantaoenergy",
-    path: "/demo/partner/tantaoenergy.png",
+    path: "/partner/tantaoenergy.png",
   },
   {
     height: 1,
     href: "https://www.uponor.com/en-us",
     name: "uponor",
-    path: "/demo/partner/uponor.png",
+    path: "/partner/uponor.png",
   },
   {
     height: 1,
     href: "https://zehnderamerica.com/",
     name: "zehnder",
-    path: "/demo/partner/zehnder.png",
+    path: "/partner/zehnder.png",
   },
   {
     height: 1,
     href: "https://www.tece.com/en",
     name: "tece",
-    path: "/demo/partner/tece.svg",
+    path: "/partner/tece.svg",
   },
   {
     height: 1,
     href: "https://vaagentimbers.com/",
     name: "vaagen",
-    path: "/demo/partner/vaagen.svg",
+    path: "/partner/vaagen.svg",
   },
   {
     height: 1,
     href: "https://www.schluter.com/schluter-us/en_US/",
     name: "schluter",
-    path: "/demo/partner/schluter.png",
+    path: "/partner/schluter.png",
   },
 
 ];
@@ -81,7 +81,7 @@ const LogoCloud = () => {
                 {" "}
                 {/* 使用宽高比容器 */}
                 <Image
-                  src={"/demo"+logo.path}
+                  src={logo.path}
                   alt={logo.name}
                   fill
                   style={{ objectFit: "contain" }}
