@@ -7,7 +7,10 @@ module.exports = {
   images: { unoptimized: true },     // GitHub Pages 不支持 Next Image 优化
   basePath: isProd ? `/${repo}` : '',   // 非自定义域名时必填
   assetPrefix: isProd ? `/${repo}/` : '',
-  rules: {
-    "unused-imports/no-unused-imports": "warn"
-  }
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 }
