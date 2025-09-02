@@ -54,7 +54,7 @@ export const Partner = ({ partners=list }: PartnersSectionProps) => {
                 >
                   <div className="relative w-full h-full">
                     <Image
-                      src={partner.path}
+                      src={"/demo"+partner.path}
                       alt={`${partner.name} logo`}
                       fill
                       style={{ objectFit: 'contain' }}

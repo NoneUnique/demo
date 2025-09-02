@@ -100,7 +100,7 @@ const materials = [
 ];
 const slides = [
   {
-    imgSrc: "/images/part01.jpg",
+    imgSrc: "/demo/images/part01.jpg",
     alt: "HVAC & Air Management",
     title: "HVAC & Air Management",
     description: [
@@ -109,7 +109,7 @@ const slides = [
     ],
   },
   {
-    imgSrc: "/images/part01.jpg",
+    imgSrc: "/demo/images/part01.jpg",
     alt: "Energy & Storage",
     title: "Energy & Storage",
     description: [
@@ -118,7 +118,7 @@ const slides = [
     ],
   },
   {
-    imgSrc: "/images/part01.jpg",
+    imgSrc: "/demo/images/part01.jpg",
     alt: "Smart Home Integration",
     title: "Smart Home Integration",
     description: [
@@ -127,7 +127,7 @@ const slides = [
     ],
   },
   {
-    imgSrc: "/images/part01.jpg",
+    imgSrc: "/demo/images/part01.jpg",
     alt: "Water Systems",
     title: "Water Systems",
     description: [
@@ -170,7 +170,7 @@ export default function Home() {
                 <div className="mb-4  w-full">
                   <img
                     className="box-border w-full h-auto rounded-lg"
-                    src={slide.imgSrc}
+                    src={"/demo"+slide.imgSrc}
                     alt={slide.alt}
                   />
                 </div>

@@ -13,7 +13,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ title, imageUrl, paramete
     <div className="flex flex-col md:flex-row max-w-5xl mx-auto p-4 bg-white shadow-lg rounded-lg">
       {/* 左侧图片 */}
       <div className="flex-shrink-0 mb-4 md:mb-0 md:w-1/2">
-        <img src={imageUrl} alt={title} className="w-full h-auto rounded-lg" />
+        <img src={"/demo"+imageUrl} alt={title} className="w-full h-auto rounded-lg" />
       </div>
 
       {/* 右侧内容 */}

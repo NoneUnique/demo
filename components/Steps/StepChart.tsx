@@ -75,7 +75,7 @@ const StepChart: React.FC<StepChartProps> = ({ items }) => {
     return (
       <div className={`relative w-4/5 ${image.position === 'right' ? 'translate-x-[calc(100%+72px)]' : 'translate-x-[calc(-100%-72px)]'}`}>
         <Image
-          src={image.src}
+          src={"/demo"+image.src}
           alt={image.alt}
           width={550}
           height={image.aspectRatio === '550/680' ? 680 : 360}

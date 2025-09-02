@@ -110,7 +110,7 @@ const RoadmapSection = () => {
                   <SwiperSlide key={slide.id}>
                     <div className="relative aspect-video rounded-xl overflow-hidden transform transition-all duration-500 hover:scale-[1.02]">
                       <Image
-                        src={slide.image}
+                        src={"/demo"+slide.image}
                         alt={slide.title}
                         fill
                         className="object-cover"

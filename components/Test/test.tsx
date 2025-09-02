@@ -38,7 +38,7 @@ const Testimonials = () => {
             <div className="md:w-1/3 flex justify-center">
               <div className="w-32 mb-6 md:mb-0">
                 <Image
-                  src={testimonials[activeIndex].logo}
+                  src={"/demo"+testimonials[activeIndex].logo}
                   alt={`${testimonials[activeIndex].author}'s company logo`}
                   width={130}
                   height={40}
@@ -56,7 +56,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full overflow-hidden">
                   <Image
-                    src={testimonials[activeIndex].image}
+                    src={"/demo"+testimonials[activeIndex].image}
                     alt={testimonials[activeIndex].author}
                     width={48}
                     height={48}
