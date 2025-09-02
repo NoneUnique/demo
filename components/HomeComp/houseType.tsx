@@ -10,7 +10,7 @@
 //             {/* Custom Home Card */}
 //             <div className="relative ">
 //               <Image
-//                 src="/images/part01.jpg"
+//                 src="/demo/images/part01.jpg"
 //                 alt="Custom Home"
 //                 className="object-cover"
 //               />
@@ -35,7 +35,7 @@
 //             {/* Tiny House Card */}
 //             <div className="relative ">
 //               <Image
-//                 src="/images/part01.jpg"
+//                 src="/demo/images/part01.jpg"
 //                 alt="Tiny House"
 //                 className="object-cover"
 //               />
@@ -72,7 +72,7 @@
 //                 <h2 className="text-4xl	 text-center">{item}</h2>
 //                 <img
 //                   className="box-border w-full h-auto mb-4"
-//                   src="/images/part01.jpg"
+//                   src="/demo/images/part01.jpg"
 //                 />
 //               </div>
 //             )
