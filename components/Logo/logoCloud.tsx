@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 const logos = [
   {
@@ -65,19 +64,6 @@ const logos = [
     path: "/partner/schluter.png",
   },
 
-  //   { url: "https://ext.same-assets.com/3151828093/437204515.svg", alt: "HubSpot" },
-  //   { url: "https://ext.same-assets.com/3151828093/2284759871.svg", alt: "Lacoste" },
-  //   { url: "https://ext.same-assets.com/3151828093/1565682079.svg", alt: "Postclick" },
-  //   { url: "https://ext.same-assets.com/3151828093/3511503405.png", alt: "LaunchDarkly" },
-  //   { url: "https://ext.same-assets.com/3151828093/3221810184.svg", alt: "Remote" },
-  //   { url: "https://ext.same-assets.com/3151828093/1302118060.svg", alt: "MetaLab" },
-  //   { url: "https://ext.same-assets.com/3151828093/1943851552.svg", alt: "Atlassian" },
-  //   { url: "https://ext.same-assets.com/3151828093/1239896064.svg", alt: "Juniper" },
-  //   { url: "https://ext.same-assets.com/3151828093/1067117222.svg", alt: "Braze" },
-  //   { url: "https://ext.same-assets.com/3151828093/1042292452.svg", alt: "Gtmhub" },
-  //   { url: "https://ext.same-assets.com/3151828093/95138211.svg", alt: "Greenhouse" },
-  //   { url: "https://ext.same-assets.com/3151828093/2507477457.svg", alt: "Brex" },
-  //   { url: "https://ext.same-assets.com/3151828093/1392457090.svg", alt: "Fit Fab Fun" },
 ];
 
 const LogoCloud = () => {
